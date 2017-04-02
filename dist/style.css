@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./img/guy.png");
+  background-size: cover;
+  background-position: center; }
+  .main h1 {
+    padding: 0px;
+    font-size: 5em;
+    color: #fff;
+    background-color: #000;
+    border-radius: 16px;
+    padding: 15px; }
+
+.what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5em; }
+  .what p {
+    padding: 15px;
+    font-size: 2.5em; }
+
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  min-width: 100vw;
+  font-size: 2em; }
+  .example a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer; }
+  .example a:hover {
+    color: #D3D3D3; }
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+  max-width: 100vw;
+  background-color: #D3D3D3; }
+  .github img {
+    min-height: 100px;
+    opacity: .7; }
+  .github :hover {
+    opacity: 1; }
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  max-width: 100vw;
+  background-color: #000; }
+  .twitter img {
+    height: 20px;
+    opacity: .7; }
+  .twitter :hover {
+    opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

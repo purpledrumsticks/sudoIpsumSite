@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./dist/style.css">
+    <link rel="stylesheet" type="text/css" href="./dist/normalize.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Sudo Ipsum Generator!</h1>
+    </div>
+    <div class="what">
+      <h1>What the heck is this?</h1>
+      <p>
+         Essentially this project is a lorem ipsum text
+         generator api that you can call with an ajax request.
+         The words within the Sudo Ipsum text correalate with
+         some of the things that I experienced at Stetson University's Sudo 2017.
+      </p>
+    </div>
+    <div class="example">
+      <p>This is how you can make a request:</p>
+      <pre>
+        $.getJSON('https://sudo-ipsum.herokuapp.com/sudoIpsum', (response) => {
+          //callback logic herre
+        });
+      </pre>
+      <p>
+        Implemented
+        <a href="https://purpledrumsticks.github.io/sudoIpsumApp/" target="_blank">here</a>
+      </p>
+    </div>
+    <div class="github">
+      <a href="https://github.com/purpledrumsticks/sudoIpsumApi" target="_blank">
+        <img src="./dist/img/github.png" alt="octocat" />
+      </a>
+    </div>
+    <div class="twitter">
+      <a href="https://twitter.com/salsaflocka" target="_blank">
+        <img src="./dist/img/twitter.gif" alt="twitterBird" />
+      </a>
+    </div>
+  </body>
+</html>
