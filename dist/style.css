@@ -43,6 +43,11 @@
     cursor: pointer; }
   .example a:hover {
     color: #D3D3D3; }
+  .example .code {
+    font-size: .6em; }
+    @media (min-width: 1000px) {
+      .example .code {
+        font-size: 1em; } }
 
 .github {
   display: flex;

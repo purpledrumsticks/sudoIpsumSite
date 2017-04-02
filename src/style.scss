@@ -49,6 +49,12 @@
   a:hover {
     color: #D3D3D3;
   }
+  .code {
+    font-size: .6em;
+    @media (min-width: 1000px) {
+      font-size: 1em;
+    }
+  }
 }
 
 .github {
